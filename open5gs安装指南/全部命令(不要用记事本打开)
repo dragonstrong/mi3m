@@ -1,0 +1,75 @@
+# 装核心网之前先把ip改为动态
+#静态改动态ip
+cd /etc/netplan
+sudo cp 01-network-manager-all.yaml 01-network-manager-all.yaml.bak    ##01-network-manager-all.yaml.bak为配置备份文件
+sudo gedit 01-network-manager-all.yaml 
+# 删除ethernets及之后的
+sudo netplan apply
+
+# 配置核心网要改成静态IP
+
+# 安装
+sudo apt update
+sudo apt install mongodb
+sudo systemctl start mongodb
+sudo systemctl enable mongodb
+sudo apt install python3-pip python3-setuptools python3-wheel ninja-build build-essential flex bison git libsctp-dev libgnutls28-dev libgcrypt-dev libssl-dev libidn11-dev libmongoc-dev libbson-dev libyaml-dev libmicrohttpd-dev libcurl4-gnutls-dev meson      
+git clone https://github.com/open5gs/open5gs           ##没配代理速度非常慢，且可能文件下载不全导致后面编译错误
+cd open5gs/
+meson build --prefix=`pwd`/install                     ##没配代理速度非常慢
+## 开启root权限，前面不要开启。这点特别注意，否则编译失败
+sudo su
+ninja -C build
+sudo ./misc/netconf.sh 
+./build/tests/attach/attach   #没配代理一般编译会失败
+                              #和下面一句都是检查编译是否成功，若报错，可以删掉build文件夹：  sudo rm -rf build   
+                              ##然后从"meson build --prefix=`pwd`/install"处再开始执行，若还是报错，则重启电脑
+
+./build/tests/registration/registration
+cd build/
+
+# test
+meson test -v
+
+#安装webui
+sudo apt install curl
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt install nodejs
+cd webui
+npm install
+
+#启动核心网要将ip改为静态ip
+#动态ip改静态ip
+cd /etc/netplan
+sudo cp 01-network-manager-all.yaml.bak 01-network-manager-all.yaml
+sudo netplan apply
+
+
+
+#核心网主机换网线和交换机相连
+
+
+# configure
+gedit configs/sample.yaml 
+
+1.PLMN中的mcc:001,mnc:01
+2.tac改成100 （两个tac）
+3.IP改成核心网电脑的IP （两个IP：1）amf:ngap;2)upf:gtpu.）
+
+
+# run 
+## Part one 启动核心网
+cd ~/open5gs
+sudo ./misc/netconf.sh # 在open5gs根目录执行以打开虚拟网卡
+./build/tests/app/5gc
+
+
+## Part two 启动webUI
+cd open5gs/webui
+sudo npm run dev
+
+#灌包，进open5gs
+iperf -u -c 10.45.0.2 -i 1 -b 1G -t 86400000
+
+
+
