@@ -12,9 +12,9 @@
 也可在电脑上用insta pro软件推流。
 （2）修改配置文件
 头显连接数据线连电脑，电脑连CPE WIFI，然后修改配置文件，添加一个应用，改name uri id即可，另存为然后复制进去
-<div align="center"><img src="https://user-images.githubusercontent.com/32926995/232017907-e9808156-752c-426d-8929-78fc6412baba.png" width="400"></div>
+<div align="left"><img src="https://user-images.githubusercontent.com/32926995/232017907-e9808156-752c-426d-8929-78fc6412baba.png" width="400"></div>
 
-<div align="center"><img src="https://user-images.githubusercontent.com/32926995/232017973-722e5a6e-a8b4-4f00-a4de-ddf4fe3a4755.png" width="400"></div>
+<div align="right"><img src="https://user-images.githubusercontent.com/32926995/232017973-722e5a6e-a8b4-4f00-a4de-ddf4fe3a4755.png" width="400"></div>
 
 
 
