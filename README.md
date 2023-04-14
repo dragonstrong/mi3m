@@ -46,8 +46,8 @@
 ## 3.AR
 
 
- 注意：AR和ALVR不能同时开，否则会连不上。
-原理：unreal engine会自动加载steamvr，steamvr会自动唤醒ALVR，需要在steamvr中：
+**注意：AR和ALVR不能同时开，否则会连不上。**
+unreal engine会自动加载steamvr，steamvr会自动唤醒ALVR，需要在steamvr中：
 设置->管理加载项->禁用ALVR
 
 运行登月的新项目：
