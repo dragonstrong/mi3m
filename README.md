@@ -1,14 +1,8 @@
+<div align="center">mi3m实验室硬件演示</div>
 
-# <div align="center">mi3m实验室硬件演示</div>
-
-目录
-=================
-
-- [1.全景相机推拉流](#1.全景相机推拉流)
-- [2.VONR电话](#2.VONR电话)
-- [3.AR](#3.AR)
-
-
+* [1\.全景相机推拉流](#1全景相机推拉流)
+* [2\. VONR电话](#2-vonr电话)
+* [3\.AR](#3ar)
 
 
 # 1.全景相机推拉流
@@ -18,7 +12,7 @@
 开全景相机第三个按钮（横向），reday，向下模式选择 “4k 30Hz” ,不要选带3D的，会出现两个画面，选择直到出现计时画面为止。
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232017623-48db9cd4-3932-483e-9b10-430aa0e15b69.png" width="400"></div>
 
- 
+
 也可在电脑上用insta pro软件推流。
 
 （2）修改配置文件</br>
@@ -48,7 +42,7 @@
  </br>
 (3)直接用拨号软件打电话
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232023098-111d04a4-de8b-40eb-9c8e-220fe7e1b099.png" width="400"></div>
- 
+
 注：烧卡时MSISDN为电话号码（要和核心网数据库对应）
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/VONR.png" width="800"></div>
 
@@ -60,13 +54,12 @@ unreal engine会自动加载steamvr，steamvr会自动唤醒ALVR，需要在stea
 
 运行登月项目：AR头显和服务器主机连同一子网（CPE），主机ping不通头显是正常的，ping要支持icmp协议（头显估计不能）
 进入编译后的文件夹，运行可执行文件连接AR头显（不用打开unreal）:
- 
+
 ```
 MissionAR.exe -vr -HoloLensRemoting=192.168.8.114(AR头显IP)
 ```
  <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/AR.png" width="800"></div>
 
- 
+
 [官网指南](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unreal/unreal-streaming?tabs=wmr)
- 
 
