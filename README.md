@@ -41,7 +41,7 @@
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232023098-111d04a4-de8b-40eb-9c8e-220fe7e1b099.png" width="400"></div>
  
 注：烧卡时MSISDN为电话号码（要和核心网数据库对应）
-<div align="center"><img src="https://user-images.githubusercontent.com/32926995/232024976-be7f91c9-a8fb-49ea-9d16-ac32cdf1f8d3.png" width="800"></div>
+<div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/VONR.png" width="800"></div>
 
 ## 3.AR
 
