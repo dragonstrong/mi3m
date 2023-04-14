@@ -62,7 +62,7 @@ MissionAR.exe -vr -HoloLensRemoting=192.168.8.114(AR头显IP)
 
  
 
-官网指南：
-https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unreal/unreal-streaming?tabs=wmr
+
+[官网指南](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unreal/unreal-streaming?tabs=wmr)
  
 
