@@ -4,6 +4,10 @@
 
 ## 1.全景相机推拉流
 全景相机网线连CPE DHCP，头显也连CPE（只要网络连通在不在同一局域网都可，不在同一子网时拉流地址为CPE的WAN IP）</br>
+
+- 推流
+- 修改配置文件
+- 头显拉流
 （1）推流</br>
 开全景相机第三个按钮（横向），reday，向下模式选择 “4k 30Hz” ,不要选带3D的，会出现两个画面，选择直到出现计时画面为止。
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232017623-48db9cd4-3932-483e-9b10-430aa0e15b69.png" width="400"></div>
