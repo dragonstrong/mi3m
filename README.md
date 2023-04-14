@@ -59,7 +59,7 @@ AR头显和服务器主机连同一子网（CPE），主机ping不通头显是�
 MissionAR.exe -vr -HoloLensRemoting=192.168.8.114(AR头显IP)
 
 ```
- <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232027997-859acb01-ae02-4786-aec4-981dc0e0daa1.png" width="800"></div>
+ <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/AR.png" width="800"></div>
 
  
 
