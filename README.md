@@ -51,7 +51,7 @@ unreal engine会自动加载steamvr，steamvr会自动唤醒ALVR，需要在stea
 设置->管理加载项->禁用ALVR
 
 运行登月项目：AR头显和服务器主机连同一子网（CPE），主机ping不通头显是正常的，ping要支持icmp协议（头显估计不能）
-进入编译后的文件夹，运行可执行文件连接AR头显（不用打开unreal）
+进入编译后的文件夹，运行可执行文件连接AR头显（不用打开unreal）:
  
 ```
 MissionAR.exe -vr -HoloLensRemoting=192.168.8.114(AR头显IP)
