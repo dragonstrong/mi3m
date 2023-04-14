@@ -5,14 +5,14 @@
 =================
 
 <!--ts-->
-   * [1.全景相机推拉流](##1.全景相机推拉流)
-   * [2.VONR电话](##2.VONR电话)
-   * [3.AR](##3.AR)
+   * [1.全景相机推拉流](#1.全景相机推拉流)
+   * [2.VONR电话](#2.VONR电话)
+   * [3.AR](#3.AR)
 
 
 <!--te-->
 
-## 1.全景相机推拉流
+# 1.全景相机推拉流
 全景相机网线连CPE DHCP，头显也连CPE（只要网络连通在不在同一局域网都可，不在同一子网时拉流地址为CPE的WAN IP）</br>
 
 （1）推流</br>
@@ -34,7 +34,7 @@
 （4）手机、电脑拉流</br>
 连CPE，打开Insta360Player，在线观看，输入配置文件中的地址
 
-## 2. VONR电话
+# 2. VONR电话
 
 实验室3个华为手机中有2个有VONR功能,首先要保证开启了IMS服务，一般都开了，详见英文pdf文档</br>
 (1) 手机开启VONR功能</br>
@@ -53,7 +53,7 @@
 注：烧卡时MSISDN为电话号码（要和核心网数据库对应）
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/VONR.png" width="800"></div>
 
-## 3.AR
+# 3.AR
 
 **注意：AR和ALVR不能同时开，否则会连不上。**</br>
 unreal engine会自动加载steamvr，steamvr会自动唤醒ALVR，需要在steamvr中：
