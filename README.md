@@ -9,7 +9,7 @@
 <p align="left" width="100%">
     <img width="33%" src="https://user-images.githubusercontent.com/32926995/232017623-48db9cd4-3932-483e-9b10-430aa0e15b69.png">
 </p>
-
+<img src="https://user-images.githubusercontent.com/32926995/232017623-48db9cd4-3932-483e-9b10-430aa0e15b69.png" width="48">
 ![image](https://user-images.githubusercontent.com/32926995/232017623-48db9cd4-3932-483e-9b10-430aa0e15b69.png =200x200)
  
 也可在电脑上用insta pro软件推流。
