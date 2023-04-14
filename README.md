@@ -32,7 +32,7 @@
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022702-53f682ab-96a8-4691-a769-60c5f975e1b8.png" width="400"></div>
 
 (2)	手机号码</br>
-在核心网数据库: /ltemme-linux-2021-03-25/config文件夹下的ue_db-ims.cfg文件中
+在核心网数据库: /ltemme-linux-2021-03-25/config文件夹下的ue_db-ims.cfg文件中（tel或imsi都行）
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022893-6da5b948-98d0-4079-8c1f-b22033cc28d0.png" width="400"></div>
 
 
@@ -41,4 +41,7 @@
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232023098-111d04a4-de8b-40eb-9c8e-220fe7e1b099.png" width="400"></div>
  
 注：烧卡时MSISDN为电话号码（要和核心网数据库对应）
+<div align="center"><img src="https://user-images.githubusercontent.com/32926995/232024704-d6631ded-8633-44d5-8b72-1189ff628ff0.png" width="400"></div>
+
+
  
