@@ -2,9 +2,9 @@
 # <div align="center">mi3m实验室硬件演示</div>
 
 # 目录
-- [1.全景相机推拉流](##1.全景相机推拉流)
-- [2.VONR电话](##2.VONR电话)
-- [3.AR](##3.AR)
+ - [1.全景相机推拉流](##1.全景相机推拉流)
+ - [2.VONR电话](##2.VONR电话)
+ - [3.AR](##3.AR)
 
 
 
@@ -50,7 +50,6 @@
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/VONR.png" width="800"></div>
 
 ## 3.AR
-
 
 **注意：AR和ALVR不能同时开，否则会连不上。**</br>
 unreal engine会自动加载steamvr，steamvr会自动唤醒ALVR，需要在steamvr中：
