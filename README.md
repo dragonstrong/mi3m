@@ -77,7 +77,7 @@
 
 - 实验室3个华为手机中有2个```VONR```功能正常（背后标了VONR）,首先要保证开启了```IMS```服务，一般都开了，详见英文```pdf```文档</br>
 - 手机连不上基站检查```apn```(和核心网里的要一致，大基站配置的```internet```)，5G模式选择：```SA+NSA``` 飞行模式
-- 连上不显示HD或者经常断：```ims.cfg```文件配置不正确
+- 连上无HD或经常断：```ims.cfg```文件配置不正确
 
 (1) IMS服务配置
 </br>除正常修改基站配置文件```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/config/v3best-gnb-sa.cfg```和核心网配置文件```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/mme-ims.cfg```外，还要配置IMS服务，```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/ims.cfg```中修改：
