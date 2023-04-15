@@ -10,6 +10,8 @@
 包含核心网和基站（一体化），配置文件检查无误后从上到下依次点击如下三个图标，分别对应驱动加载（可能出射频错误）、核心网启动、基站启动。
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/icon.jpg" width="200"></div>
 
+- driver正常加载：
+
 ## 基站核心网配置
 </br>不打VONR电话无需配置```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/ims.cfg```
 ### 1.1 Amari基站连Amari核心网
