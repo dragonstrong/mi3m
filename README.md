@@ -60,12 +60,16 @@
 
 # 2. VONR电话
 
-- 实验室3个华为手机中有2个有VONR功能,首先要保证开启了IMS服务，一般都开了，详见英文pdf文档</br>
-- 手机连不上基站检查apn(和核心网里的要一致，大基站配置的```internet```)，5G模式选择：```SA+NSA``` 飞行模式
+- 实验室3个华为手机中有2个有```VONR```功能,首先要保证开启了```IMS```服务，一般都开了，详见英文```pdf```文档</br>
+- 手机连不上基站检查```apn```(和核心网里的要一致，大基站配置的```internet```)，5G模式选择：```SA+NSA``` 飞行模式
 - 连上不显示HD或者经常断：```ims.cfg```文件配置不正确
 
-(1) 手机开启VONR功能</br>
-开发者选项->VONR高清通话，开启后信号处会显示HD（没有HD则是IMS配置错误）
+(1) IMS服务配置
+</br>除正常修改基站配置文件```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/config/v3best-gnb-sa.cfg```和核心网配置文件```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/mme-ims.cfg```外，还要配置IMS服务，```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/ims.cfg```中修改：
+- ```cx_server_addr：与基站配置文件中amf_addr相同```
+- ```sctp_addr、cx_bind_addr：与基站配置文件中gtp_addr相同```
+(1) 手机开启```VONR```功能</br>
+开发者选项->```VONR```高清通话，开启后信号处会显示HD（没有HD则是IMS配置错误）
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022702-53f682ab-96a8-4691-a769-60c5f975e1b8.png" width="400"></div>
 
 (2)	手机号码</br>
