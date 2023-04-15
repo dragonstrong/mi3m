@@ -9,7 +9,9 @@
 * [3\. VONR电话](#3-vonr电话)
 * [4\.AR](#4ar)
 
-# 1.Amari基站([参考](https://github.com/dragonstrong/mi3m/blob/main/5G%E5%B9%B3%E5%8F%B0%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C.docx))
+# 1.Amari基站
+**[参考](https://github.com/dragonstrong/mi3m/blob/main/5G%E5%B9%B3%E5%8F%B0%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C.docx)**
+</br>
   包含核心网和基站（一体化），配置文件检查无误后从上到下依次点击如下三个图标，分别对应驱动加载（可能出射频错误）、核心网启动、基站启动。
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/icon.jpg" width="200"></div>
 
