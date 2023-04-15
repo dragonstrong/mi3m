@@ -32,8 +32,9 @@
 # 2. VONR电话
 
 实验室3个华为手机中有2个有VONR功能,首先要保证开启了IMS服务，一般都开了，详见英文pdf文档</br>
+手机连不上基站检查apn(和核心网里的要一致，大基站配置的internet)，5G模式选择：SA+NSA 飞行模式
 (1) 手机开启VONR功能</br>
-开发者选项->VONR高清通话，开启后信号处会显示HD
+开发者选项->VONR高清通话，开启后信号处会显示HD（没有HD则是IMS配置错误）
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022702-53f682ab-96a8-4691-a769-60c5f975e1b8.png" width="400"></div>
 
 (2)	手机号码</br>
