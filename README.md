@@ -56,12 +56,14 @@
 打开头显  应用  点开对应应用名称（图中为星地）
 
 （4）手机、电脑拉流</br>
-连CPE，使用Insta360在线观看，输入配置文件中的地址。或者potplayer、vlc拉流。
+连CPE，使用```Insta360```在线观看，输入配置文件中的地址。或者```potplayer、vlc```拉流。
 
 # 2. VONR电话
 
-实验室3个华为手机中有2个有VONR功能,首先要保证开启了IMS服务，一般都开了，详见英文pdf文档</br>
-手机连不上基站检查apn(和核心网里的要一致，大基站配置的internet)，5G模式选择：SA+NSA 飞行模式
+- 实验室3个华为手机中有2个有VONR功能,首先要保证开启了IMS服务，一般都开了，详见英文pdf文档</br>
+- 手机连不上基站检查apn(和核心网里的要一致，大基站配置的```internet```)，5G模式选择：```SA+NSA``` 飞行模式
+- 连上不显示HD或者经常断：```ims.cfg```文件配置不正确
+
 (1) 手机开启VONR功能</br>
 开发者选项->VONR高清通话，开启后信号处会显示HD（没有HD则是IMS配置错误）
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022702-53f682ab-96a8-4691-a769-60c5f975e1b8.png" width="400"></div>
