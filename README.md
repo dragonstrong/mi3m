@@ -7,7 +7,9 @@
 * [3\.AR](#3ar)
 
 # 1.Amari基站
-一体化基站含核心网和基站
+包含核心网和基站（一体化）
+<div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/icon.jpg" width="400"></div>
+
 ## 1.1 基站核心网启动
 </br>不打VONR电话无需配置```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/ims.cfg```
 ### 1.1.1 Amari基站连Amari核心网
