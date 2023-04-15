@@ -15,7 +15,7 @@
 - amf_addr：核心网IP
 - gtp_addr:基站IP
 两个地址都可以设成本地127.0.1.X，也可以在基站后面接一根网线，基于物理网卡起一个虚拟网卡IP，分别作为amf_addr和gtp_addr。
-</br>核心网配置文件：/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/mme-ims.cfg中
+</br>核心网配置文件：```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/mme-ims.cfg```中
 - gtp_addr：和基站配置文件中的amf_addr相同
 
 
@@ -65,7 +65,7 @@
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022702-53f682ab-96a8-4691-a769-60c5f975e1b8.png" width="400"></div>
 
 (2)	手机号码</br>
-在核心网数据库: /ltemme-linux-2021-03-25/config文件夹下的ue_db-ims.cfg文件中（tel或imsi都行）
+在核心网数据库: ```/ltemme-linux-2021-03-25/config```文件夹下的ue_db-ims.cfg文件中（tel或imsi都行）
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022893-6da5b948-98d0-4079-8c1f-b22033cc28d0.png" width="400"></div>
 
 
