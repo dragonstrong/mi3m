@@ -9,7 +9,7 @@
 # 1.Amari基站
 一体化基站含核心网和基站
 ## 1.1 基站核心网启动
-</br>不涉及打VONR电话只用改基站配置文件和核心网配置文件
+</br>不打VONR电话无需修改```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/ims.cfg```
 ### 1.1.1 Amari基站连Amari核心网
 (1) 修改基站配置文件```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/config/v3best-gnb-sa.cfg```中:
 - amf_addr：核心网IP
