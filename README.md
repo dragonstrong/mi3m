@@ -13,7 +13,7 @@
 ### 1.1.1 Amari基站连Amari核心网
 (1) 修改基站配置文件```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/config/v3best-gnb-sa.cfg```中:
 - amf_addr：核心网IP
-- gtp_addr: 基站IP
+- gtp_addr：基站IP
 </br>Amari网口闲置时两个地址都设成本地127.0.1.X。
 </br>另一配置方法是：在amari后接一根网线，基于物理网卡起一个虚拟IP，分别作为amf_addr和gtp_addr。
 
