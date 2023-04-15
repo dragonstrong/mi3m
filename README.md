@@ -89,7 +89,7 @@
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022702-53f682ab-96a8-4691-a769-60c5f975e1b8.png" width="400"></div>
 
 (3)	手机号码</br>
-在核心网数据库: ```/ltemme-linux-2021-03-25/config/ue_db-ims.cfg```文件中（tel或imsi都行），核心网```mme```界面输命令```ue```可看到```imsi```。
+在核心网数据库: ```/ltemme-linux-2021-03-25/config/ue_db-ims.cfg```文件中（```tel或imsi```都行），核心网```mme```界面输命令```ue```可看到```imsi```。
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022893-6da5b948-98d0-4079-8c1f-b22033cc28d0.png" width="400"></div>
 
 
