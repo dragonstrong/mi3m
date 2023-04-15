@@ -11,11 +11,11 @@
 ## 1.1 基站核心网启动
 </br>不涉及打VONR电话只用改基站配置文件和核心网配置文件
 ### 1.1.1 Amari基站连Amari核心网
-修改基站配置文件：```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/config/v3best-gnb-sa.cfg```中
+修改基站配置文件```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/config/v3best-gnb-sa.cfg```中:
 - amf_addr：核心网IP
 - gtp_addr:基站IP
 两个地址都可以设成本地127.0.1.X，也可以在基站后面接一根网线，基于物理网卡起一个虚拟网卡IP，分别作为amf_addr和gtp_addr。
-</br>核心网配置文件：```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/mme-ims.cfg```中
+</br>修改核心网配置文件```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/mme-ims.cfg```中:
 - gtp_addr：和基站配置文件中的amf_addr相同
 
 
