@@ -51,7 +51,7 @@
 
 
 
-# 1.全景相机推拉流
+# 2.全景相机推拉流
 全景相机网线连```CPE DHCP```，头显也连```CPE```（只要网络连通在不在同一局域网都可，不在同一子网时拉流地址为CPE的WAN IP）</br>
 
 （1）推流</br>
@@ -73,7 +73,7 @@
 （4）手机、电脑拉流</br>
 连CPE，使用```Insta360```在线观看，输入配置文件中的地址。或者```potplayer、vlc```拉流。
 
-# 2. VONR电话
+# 3. VONR电话
 
 - 实验室3个华为手机中有2个```VONR```功能正常（背后标了VONR）,首先要保证开启了```IMS```服务，一般都开了，详见英文```pdf```文档</br>
 - 手机连不上基站检查```apn```(和核心网里的要一致，大基站配置的```internet```)，5G模式选择：```SA+NSA``` 飞行模式
@@ -100,7 +100,7 @@
 注：烧卡时MSISDN为电话号码（要和核心网数据库对应）
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/VONR.png" width="800"></div>
 
-# 3.AR
+# 4.AR
 
 **注意：AR和ALVR不能同时开，否则会连不上。**</br>
 ```unreal engine```会自动加载```steamvr，steamvr```会自动唤醒```ALVR```，需要在```steamvr```中：
