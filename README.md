@@ -68,17 +68,18 @@
 </br>除正常修改基站配置文件```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/config/v3best-gnb-sa.cfg```和核心网配置文件```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/mme-ims.cfg```外，还要配置IMS服务，```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/ims.cfg```中修改：
 - ```cx_server_addr：与基站配置文件中amf_addr相同```
 - ```sctp_addr、cx_bind_addr：与基站配置文件中gtp_addr相同```
-(1) 手机开启```VONR```功能</br>
+
+(2) 手机开启```VONR```功能</br>
 开发者选项->```VONR```高清通话，开启后信号处会显示HD（没有HD则是IMS配置错误）
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022702-53f682ab-96a8-4691-a769-60c5f975e1b8.png" width="400"></div>
 
-(2)	手机号码</br>
+(3)	手机号码</br>
 在核心网数据库: ```/ltemme-linux-2021-03-25/config/ue_db-ims.cfg```文件中（tel或imsi都行）
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022893-6da5b948-98d0-4079-8c1f-b22033cc28d0.png" width="400"></div>
 
 
  </br>
-(3)直接用拨号软件打电话
+(4)直接用拨号软件打电话
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232023098-111d04a4-de8b-40eb-9c8e-220fe7e1b099.png" width="400"></div>
 
 注：烧卡时MSISDN为电话号码（要和核心网数据库对应）
