@@ -10,7 +10,15 @@
 包含核心网和基站（一体化），配置文件检查无误后从上到下依次点击如下三个图标，分别对应驱动加载（可能出射频错误）、核心网启动、基站启动。
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/icon.jpg" width="200"></div>
 
-- driver正常加载：
+</br>都不能出错，正常画面如下：
+- driver加载：
+<div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/driver.jpg" width="400"></div>
+- 核心网启动：
+<div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/mme.jpg" width="400"></div>
+- IMS服务：
+<div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/ims.jpg" width="400"></div>
+- 基站启动：
+<div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/gtp.jpg" width="400"></div>
 
 ## 基站核心网配置
 </br>不打VONR电话无需配置```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/ims.cfg```
