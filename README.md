@@ -37,14 +37,14 @@
 
 
 # 1.全景相机推拉流
-全景相机网线连CPE DHCP，头显也连CPE（只要网络连通在不在同一局域网都可，不在同一子网时拉流地址为CPE的WAN IP）</br>
+全景相机网线连```CPE DHCP```，头显也连```CPE```（只要网络连通在不在同一局域网都可，不在同一子网时拉流地址为CPE的WAN IP）</br>
 
 （1）推流</br>
 开全景相机第三个按钮（横向），reday，向下模式选择 “4k 30Hz” ,不要选带3D的，会出现两个画面，选择直到出现计时画面为止。
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232017623-48db9cd4-3932-483e-9b10-430aa0e15b69.png" width="400"></div>
 
 
-也可在电脑上用insta pro软件推流。
+也可在电脑上用```insta pro```软件推流。
 
 （2）修改配置文件</br>
 头显数据线连电脑，电脑连CPE WIFI，修改配置文件：添加一个应用，改name uri id即可，另存为然后复制进去
@@ -70,7 +70,7 @@
 - ```sctp_addr、cx_bind_addr：与基站配置文件中gtp_addr相同```
 
 (2) 手机开启```VONR```功能</br>
-开发者选项->```VONR```高清通话，开启后信号处会显示HD（没有HD则是IMS配置错误）
+开发者选项->```VONR```高清通话，开启后信号处会显示```HD```（没有```HD```则是```IMS```配置错误）
 <div align="center"><img src="https://user-images.githubusercontent.com/32926995/232022702-53f682ab-96a8-4691-a769-60c5f975e1b8.png" width="400"></div>
 
 (3)	手机号码</br>
@@ -88,14 +88,14 @@
 # 3.AR
 
 **注意：AR和ALVR不能同时开，否则会连不上。**</br>
-unreal engine会自动加载steamvr，steamvr会自动唤醒ALVR，需要在steamvr中：
+```unreal engine```会自动加载```steamvr，steamvr```会自动唤醒```ALVR```，需要在```steamvr```中：
 设置->管理加载项->禁用ALVR
 
 AR服务器连接AR头显：</br>
 AR头显和服务器主机连同一子网（CPE），主机ping不通头显是正常的，ping要支持icmp协议（头显估计不能）
 </br>
 法1：</br>
-打开unreal虚幻引擎,编辑->项目设置->搜索"holo",在AR头显中运行HoloLens graphic Remoting，将显示的IP地址填入3，然后点连接，显示connected为连接成功 。若不成功一般是没有在steamvr加载项中禁用ALVR。连上之后点运行即可在头显中开始游戏。
+打开```unreal```虚幻引擎,编辑->项目设置->搜索"holo",在AR头显中运行```HoloLens graphic Remoting```，将显示的IP地址填入3，然后点连接，显示```connected```为连接成功 。若不成功一般是没有在steamvr加载项中禁用ALVR。连上之后点运行即可在头显中开始游戏。
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/AR2.png" width="800"></div>
 
 </br>
