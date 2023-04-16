@@ -10,7 +10,7 @@
 * [4\.AR](#4ar)
 
 # 1.Amari基站
-说明
+**说明**
 - **[参考：5G平台操作手册](https://github.com/dragonstrong/mi3m/blob/main/5G%E5%B9%B3%E5%8F%B0%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C.docx)**
 - **所有配置参考文档参考文档```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/doc/lteenb.pdf```**
 </br>
