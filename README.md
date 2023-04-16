@@ -57,6 +57,7 @@ Amari只开基站，用网线将它和核心网主机连起来，两个设成同
 例如：
 
 - 修改prb：进入doc文件夹，第一条命令修改prb，最后一个参数为prb的值；第二条命令获取参数。修改后可用手机测速软件测速，prb越大速度越大。
+```node ./ws.js 127.0.0.1:9001 '{"message":"config_set","cells":{"1":{"pdsch_fixed_rb_alloc":true,"pdsch_fixed_rb_start":1,"pdsch_fixed_l_crb":272}}}'```
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/Remote%20API.png" width="800"></div>
 - 
 
