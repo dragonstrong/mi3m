@@ -115,7 +115,7 @@ AR服务器连接AR头显：</br>
 AR头显和服务器主机连同一子网（CPE），主机ping不通头显是正常的，ping要支持icmp协议（头显估计不能）
 </br>
 - 法1：</br>
-打开```unreal```虚幻引擎,编辑->项目设置->搜索"holo",在AR头显中运行```HoloLens graphic Remoting```，将显示的IP地址填入3，然后点连接，显示```connected```为连接成功 。若不成功一般是没有在steamvr加载项中禁用ALVR。连上之后点运行即可在头显中开始游戏。
+打开```unreal```虚幻引擎,编辑->项目设置->搜索"holo",在AR头显中运行```HoloLens graphic Remoting```，将显示的IP地址填入3，然后点连接，显示```connected```为连接成功 。若失败一般是没有在steamvr加载项中禁用ALVR。连上之后点运行即可在头显中开始游戏。
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/AR2.png" width="800"></div>
 
 </br>
