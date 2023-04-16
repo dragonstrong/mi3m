@@ -5,6 +5,8 @@
   * [文件配置](#文件配置)
     * [1\.1 Amari基站连Amari核心网](#11-amari基站连amari核心网)
     * [1\.2 Amari基站连其他核心网](#12-amari基站连其他核心网)
+  * [Remote API远程修改配置](#remote-api远程修改配置)
+  * [其他常用命令（操作）](#其他常用命令操作)
 * [2\.全景相机推拉流](#2全景相机推拉流)
 * [3\. VONR电话](#3-vonr电话)
 * [4\.AR](#4ar)
@@ -16,7 +18,7 @@
 
 
 **概述**
-  
+
   包含核心网和基站（一体化），配置文件检查无误后从上到下依次点击如下三个图标，分别对应驱动加载（可能报射频错误）、核心网启动、基站启动。
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/icon.jpg" width="100"></div>
 
