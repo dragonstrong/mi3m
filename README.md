@@ -2,7 +2,7 @@
 =================
 
 * [1\.Amari基站](#1amari基站)
-  * [1\.1文件配置](#11文件配置)
+  * [1\.1基站核心网启动](#11基站核心网启动)
     * [1\.1\.1 Amari基站连Amari核心网](#111-amari基站连amari核心网)
     * [1\.1\.2 Amari基站连其他核心网](#112-amari基站连其他核心网)
   * [1\.2 Remote API远程修改配置](#12-remote-api远程修改配置)
@@ -35,7 +35,7 @@
 - 基站启动：
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/gtp.jpg" width="400"></div>
 
-## 1.1文件配置
+## 1.1基站核心网启动
 </br>不打VONR电话无需配置```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/ims.cfg```
 ### 1.1.1 Amari基站连Amari核心网
 (1) 修改基站配置文件```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/config/v3best-gnb-sa.cfg```:
