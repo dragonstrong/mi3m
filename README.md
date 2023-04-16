@@ -70,12 +70,8 @@ Amari只开基站，用网线将它和核心网主机连起来，两个设成同
 ## 1.3 其他常用命令（操作）
 - ```gnb终端:ng(查看基站是否连接核心网)、t（打印速率等信息）、cell(查看基站下属小区)```
 - ```mme终端：ue(查看接入核心网的终端，含imsi、ip等信息)、gnb(查看接入核心网的基站)```
-- [灌包命令](https://github.com/dragonstrong/mi3m/blob/main/%E7%81%8C%E5%8C%85%E5%91%BD%E4%BB%A4.docx)
-示例：```iperf -u -c 192.168.2.3 -i 1 -b 1G -t 100```  
 - gnb终端打印理论速率：打开基站配置文件最后一句注释```force_dl_schedule: true```
-
-说明：百度```iperf```灌包命令，包含```udp、tcp```及参数说明。上面的为灌```UDP```包，```192.168.2.3```为灌包目的```IP、-i```为打印时间间隔```(s)、-b```为发包速率、```-t```为灌包时长```（s）```
-
+- [灌包命令](https://github.com/dragonstrong/mi3m/blob/main/%E7%81%8C%E5%8C%85%E5%91%BD%E4%BB%A4.docx)
 - [给SIM卡设静态IP](https://github.com/dragonstrong/mi3m/blob/main/Amari%E6%A0%B8%E5%BF%83%E7%BD%91%E7%BB%99UE%E5%88%86%E9%85%8D%E9%9D%99%E6%80%81IP.docx)
 - [SIM卡写入](https://github.com/dragonstrong/mi3m/tree/main/%E7%83%A7%E5%8D%A1)
 
