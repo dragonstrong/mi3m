@@ -35,9 +35,9 @@
 - 基站启动：
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/gtp.jpg" width="400"></div>
 
-## 文件配置
+## 1.1文件配置
 </br>不打VONR电话无需配置```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/ims.cfg```
-### 1.1 Amari基站连Amari核心网
+### 1.1.1 Amari基站连Amari核心网
 (1) 修改基站配置文件```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/config/v3best-gnb-sa.cfg```:
 - ```amf_addr：核心网IP```
 - ```gtp_addr：基站IP```
@@ -48,7 +48,7 @@
 - ```gtp_addr：和基站配置文件中的amf_addr相同```
 
 
-### 1.2 Amari基站连其他核心网
+### 1.1.2 Amari基站连其他核心网
 Amari只开基站，用网线将它和核心网主机连起来，两个设成同一网段的静态IP，假设为```192.168.1.210```和```192.168.1.211```（子网掩码24位）
 - ```amf_addr:核心网主机IP  192.168.1.211```
 - ```gtp_addr:基站IP 192.168.1.210```
@@ -56,7 +56,7 @@ Amari只开基站，用网线将它和核心网主机连起来，两个设成同
 核心网
 - ```gtp_addr: 核心网所在主机IP 192.168.1.211```
 
-## Remote API远程修改配置
+## 1.2 Remote API远程修改配置
 参考```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/doc/lteenb.pdf```第九章:
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/API.png" width="400"></div>
 基站需用网线连接获取物理IP（amf_addr和gtp_addr配置基于此网口IP），且基站核心网都开启，笔记本接入（网线或WIFI）网络后即可使用笔记本远程修改基站参数。
@@ -66,7 +66,7 @@ Amari只开基站，用网线将它和核心网主机连起来，两个设成同
 远程修改将图中的127.0.0.1替换为基站IP地址，端口不变。
 
 
-## 其他常用命令（操作）
+## 1.3 其他常用命令（操作）
 - ```gnb终端:ng(查看基站是否连接核心网)、t（打印速率等信息）、cell(查看基站下属小区)```
 - ```mme终端：ue(查看接入核心网的终端，含imsi、ip等信息)、gnb(查看接入核心网的基站)```
 - 灌包：```iperf -u -c 192.168.2.3 -i 1 -b 1G -t 100```  
