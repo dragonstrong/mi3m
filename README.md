@@ -7,9 +7,12 @@
     * [1\.1\.2 Amari基站连其他核心网](#112-amari基站连其他核心网)
   * [1\.2 Remote API远程修改配置](#12-remote-api远程修改配置)
   * [1\.3 其他常用命令（操作）](#13-其他常用命令操作)
-  * [1\.4 <a href="https://github\.com/dragonstrong/mi3m/blob/main/%E7%81%8C%E5%8C%85%E5%91%BD%E4%BB%A4\.docx">灌包命令</a>](#14-灌包命令)
-  * [1\.5 <a href="https://github\.com/dragonstrong/mi3m/blob/main/Amari%E6%A0%B8%E5%BF%83%E7%BD%91%E7%BB%99UE%E5%88%86%E9%85%8D%E9%9D%99%E6%80%81IP\.docx">给SIM卡设静态IP</a>](#15-给sim卡设静态ip)
-  * [1\.6 <a href="https://github\.com/dragonstrong/mi3m/tree/main/%E7%83%A7%E5%8D%A1">SIM卡写入</a>](#16-sim卡写入)
+  * [1\.4 灌包命令](#14-灌包命令)
+  * [<a href="https://github\.com/dragonstrong/mi3m/blob/main/%E7%81%8C%E5%8C%85%E5%91%BD%E4%BB%A4\.docx">参考</a>](#参 考)
+  * [1\.5 给SIM卡设静态IP](#15-给sim卡设静态ip)
+  * [<a href="https://github\.com/dragonstrong/mi3m/blob/main/Amari%E6%A0%B8%E5%BF%83%E7%BD%91%E7%BB%99UE%E5%88%86%E9%85%8D%E9%9D%99%E6%80%81IP\.docx">参考</a>](#参考-1)
+  * [1\.6 SIM卡写入](#16-sim卡写入)
+  * [<a href="https://github\.com/dragonstrong/mi3m/tree/main/%E7%83%A7%E5%8D%A1">参考</a>](#参考-2)
 * [2\.全景相机推拉流](#2全景相机推拉流)
 * [3\. VONR电话](#3-vonr电话)
 * [4\.AR](#4ar)
@@ -75,10 +78,17 @@ Amari只开基站，用网线将它和核心网主机连起来，两个设成同
 - ```mme终端：ue(查看接入核心网的终端，含imsi、ip等信息)、gnb(查看接入核心网的基站)```
 - gnb终端打印理论速率：打开基站配置文件最后一句注释```force_dl_schedule: true```
 
-## 1.4 [灌包命令](https://github.com/dragonstrong/mi3m/blob/main/%E7%81%8C%E5%8C%85%E5%91%BD%E4%BB%A4.docx)
+## 1.4 灌包命令
 
-## 1.5 [给SIM卡设静态IP](https://github.com/dragonstrong/mi3m/blob/main/Amari%E6%A0%B8%E5%BF%83%E7%BD%91%E7%BB%99UE%E5%88%86%E9%85%8D%E9%9D%99%E6%80%81IP.docx)
-## 1.6 [SIM卡写入](https://github.com/dragonstrong/mi3m/tree/main/%E7%83%A7%E5%8D%A1)
+##  [参考](https://github.com/dragonstrong/mi3m/blob/main/%E7%81%8C%E5%8C%85%E5%91%BD%E4%BB%A4.docx)
+
+## 1.5 给SIM卡设静态IP
+
+## [参考](https://github.com/dragonstrong/mi3m/blob/main/Amari%E6%A0%B8%E5%BF%83%E7%BD%91%E7%BB%99UE%E5%88%86%E9%85%8D%E9%9D%99%E6%80%81IP.docx)
+
+## 1.6 SIM卡写入
+
+## [参考](https://github.com/dragonstrong/mi3m/tree/main/%E7%83%A7%E5%8D%A1)
 
 
 
