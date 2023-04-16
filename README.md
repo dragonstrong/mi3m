@@ -51,8 +51,13 @@ Amari只开基站，用网线将它和核心网主机连起来，两个设成同
 - ```gtp_addr: 核心网所在主机IP 192.168.1.211```
 
 ## Remote API远程修改配置
-参考文档```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/doc/lteenb.pdf```第九章 Remote API:
+参考```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/doc/lteenb.pdf```第九章 Remote API:
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/API.png" width="400"></div>
+基站需用网线连接获取物理IP（amf_addr和gtp_addr配置基于此网口IP），笔记本接入（网线或WIFI）网络后即可使用笔记本远程修改基站参数。
+例如：
+- 修改prb：基站核心网都开启，进入doc文件夹，第一条命令修改prb，最后一个参数为prb的值；第二条命令获取参数。修改后可用手机测速软件测速，prb越大速度越大。
+<div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/Remote%20API.png" width="400"></div>
+- 
 
 
 
