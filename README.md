@@ -59,7 +59,7 @@ Amari只开基站，用网线将它和核心网主机连起来，两个设成同
 ## 1.2 Remote API远程修改配置
 参考```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/doc/lteenb.pdf```第九章:
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/API.png" width="400"></div>
-基站需用网线连接获取物理IP,再另起一个虚拟IP，将它们分给amf_addr和gtp_addr。基站核心网都开启后，笔记本接入（网线或WIFI）网络即可使用它远程修改基站参数。在此之前笔记本需安装node.js
+基站需用网线连接获取物理IP,再另起一个虚拟IP，将它们分给amf_addr和gtp_addr。基站核心网都开启后，笔记本接入（网线或WIFI）网络即可使用它远程修改基站参数(笔记本需安装node.js)。
 
 - 修改prb：进入doc文件夹，第一条命令修改prb，最后一个参数为prb的值；第二条命令获取参数。修改后可用手机测速软件测速（或对手机灌包），prb越大速率越大。
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/Remote%20API.png" width="800"></div>
