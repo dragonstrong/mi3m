@@ -72,7 +72,7 @@ nodejs --version  #查看安装的版本
 ```
 - 修改prb：进入doc文件夹，第一条命令修改prb，最后一个参数为prb的值；第二条命令获取参数。修改后可用手机测速软件测速（或对手机灌包），prb越大速率越大。
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/Remote%20API.png" width="800"></div>
-远程修改**将图中的127.0.0.1替换为基站IP地址**，端口不变。
+**远程修改将图中的127.0.0.1替换为基站IP地址**，端口不变。
 
 
 ## 1.3 其他常用命令（操作）
