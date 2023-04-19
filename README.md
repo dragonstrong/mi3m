@@ -63,8 +63,12 @@ Amari只开基站，用网线将它和核心网主机连起来，两个设成同
 参考```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/doc/lteenb.pdf```第九章:
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/API.png" width="400"></div>
 
-基站使用网线连接获取物理```IP```,再另起一个虚拟```IP```，将它们分给```amf_addr和gtp_addr```。```ims.cfg```中和```IMS```相关的也要改，不然手机接上后容易自动断开。基站核心网都开启，笔记本(先安装**node.js**，并将基站```doc```文件夹拷贝过来，直接在```doc```文件夹中运行命令)接入网络后（网线或WIFI）即可使用它远程修改基站参数。
+基站使用网线连接获取物理```IP```,再另起一个虚拟```IP```，将它们分给```amf_addr和gtp_addr```。```ims.cfg```中和```IMS```相关的也要改，不然手机接上后容易自动断开。基站核心网都开启，笔记本(先安装**node.js**，并将基站```doc```文件夹拷贝过来，直接在```doc```文件夹中运行命令)接入网络后（网线或WIFI）即可使用它远程修改基站参数。```nodejs```安装：
 
+```
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 - 修改prb：进入doc文件夹，第一条命令修改prb，最后一个参数为prb的值；第二条命令获取参数。修改后可用手机测速软件测速（或对手机灌包），prb越大速率越大。
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/Remote%20API.png" width="800"></div>
 远程修改将图中的127.0.0.1替换为基站IP地址，端口不变。
