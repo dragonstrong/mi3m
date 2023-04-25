@@ -87,7 +87,7 @@ node ./ws.js 127.0.0.1:9001 '{"message":"ue_get","stats":true}'
 
 - 修改基站功率
 ```
-node ./ws.js 127.0.0.1:9001 '{"message":"cell_gain","cell_id":1,"gain":-30}'
+node ./ws.js 127.0.0.1:9001 '{"message":"cell_gain","cell_id":1,"gain":-30}'  #gain范围：-200~0
 ```
 **远程修改将127.0.0.1替换为基站IP地址**，端口见基站配置文件：
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/image1/1.png" width="400"></div>
