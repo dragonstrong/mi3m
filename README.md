@@ -30,10 +30,12 @@
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/driver.jpg" width="400"></div>
 
 - 核心网启动：
-<div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/mme.jpg" width="400"></div>
+<div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/ims.jpg" width="400"></div>
 
 - IMS服务：
-<div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/ims.jpg" width="400"></div>
+<div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/mme.jpg" width="400"></div>
+
+
 
 - 基站启动：
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/gtp.jpg" width="400"></div>
