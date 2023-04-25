@@ -61,7 +61,7 @@ Amari只开基站，用网线将它和核心网主机连起来，两个设成同
 核心网
 - ```gtp_addr: 核心网所在主机IP 192.168.1.211```
 
-## 1.2 Remote API远程修改配置
+## 1.2 Remote API
 参考```/home/sdr/2021-03-25/lteenb-linux-2021-03-25/doc/lteenb.pdf```第九章:
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/API.png" width="400"></div>
 
@@ -106,7 +106,7 @@ node ./ws.js 127.0.0.1:9001 '{"message":"cell_gain","cell_id":1,"gain":-30}'  #g
 
 [参考](https://github.com/dragonstrong/mi3m/blob/main/Amari%E6%A0%B8%E5%BF%83%E7%BD%91%E7%BB%99UE%E5%88%86%E9%85%8D%E9%9D%99%E6%80%81IP.docx)
 
-## 1.6 SIM卡写入
+## 1.6 写SIM卡
 
 [参考](https://github.com/dragonstrong/mi3m/tree/main/%E7%83%A7%E5%8D%A1)
 
@@ -195,7 +195,7 @@ MissionAR.exe -vr -HoloLensRemoting=192.168.8.114(AR头显IP)
 
 [官网指南](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unreal/unreal-streaming?tabs=wmr)
 
-# 5.常用服务器搭建
+# 5.服务器搭建
 ## RTMP
 [参考](https://blog.csdn.net/dragonstrong/article/details/118976024?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168243710316800182781733%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=168243710316800182781733&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-118976024-null-null.blog_rank_default&utm_term=rtmp&spm=1018.2226.3001.4450)
 
