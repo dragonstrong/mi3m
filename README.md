@@ -79,10 +79,12 @@ nodejs --version  #查看安装的版本
 node ./ws.js 127.0.0.1:9001 '{"message":"config_set","cells":{"1":{"pdsch_fixed_rb_alloc":true,"pdsch_fixed_rb_start":1,"pdsch_fixed_l_crb":272}}}'
 ```
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/Remote%20API.png" width="800"></div>
+
 - 获取终端信息
 ```
 node ./ws.js 127.0.0.1:9001 '{"message":"ue_get","stats":true}'
 ```
+
 - 修改基站功率
 ```
 node ./ws.js 127.0.0.1:9001 '{"message":"cell_gain","cell_id":1,"gain":-30}'
