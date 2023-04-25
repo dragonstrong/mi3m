@@ -75,8 +75,18 @@ nodejs --version  #查看安装的版本
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/100.png" width="400"></div>
 
 - 修改prb：进入doc文件夹，第一条命令修改prb，最后一个参数为prb的值；第二条命令获取参数。修改后可用手机测速软件测速（或对手机灌包），prb越大速率越大。
+```
+node ./ws.js 127.0.0.1:9001 '{"message":"config_set","cells":{"1":{"pdsch_fixed_rb_alloc":true,"pdsch_fixed_rb_start":1,"pdsch_fixed_l_crb":272}}}'
+```
 <div align="center"><img src="https://github.com/dragonstrong/mi3m/blob/main/Remote%20API.png" width="800"></div>
-
+- 获取终端信息
+```
+node ./ws.js 127.0.0.1:9001 '{"message":"ue_get","stats":true}'
+```
+- 修改基站功率
+```
+node ./ws.js 127.0.0.1:9001 '{"message":"cell_gain","cell_id":1,"gain":-30}'
+```
 **远程修改将图中的127.0.0.1替换为基站IP地址**，端口不变。
 
 
