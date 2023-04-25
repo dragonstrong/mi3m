@@ -45,7 +45,7 @@
 - ```amf_addr：核心网IP```
 - ```gtp_addr：基站IP```
 </br>Amari网口闲置时两个地址都设成本地```127.0.1.X```。
-</br>另一方案：在amari后接一根网线，基于物理网卡起一个虚拟IP，分别作为```amf_addr```和```gtp_addr```。
+</br>另一方案：在amari后接一根网线，基于物理网卡起一个虚拟IP(如```sudo ifconfig eth0:1 192.168.0.1 up```，其中eth0为物理网卡名)，分别作为```amf_addr```和```gtp_addr```。
 
 (2) 修改核心网配置文件```/home/sdr/2021-03-25/ltemme-linux-2021-03-25/config/mme-ims.cfg```:
 - ```gtp_addr：和基站配置文件中的amf_addr相同```
